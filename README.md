@@ -1,4 +1,4 @@
-# local_manifest for LiquidRemix Kenzo
+# LiquidRemix Pie
 
 Synch sources:
 
