@@ -1,1 +1,1 @@
-# local_manifest-liquid-
+# local_manifest for LiquidRemix Kenzo
