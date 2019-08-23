@@ -1,5 +1,7 @@
 # local_manifest for LiquidRemix Kenzo
 
+Synch sources:
+
     $ repo init -u git://github.com/LiquidRemix/android_manifest.git -b pie
     $ mkdir -p .repo/local_manifests
     $ wget https://raw.githubusercontent.com/magicxavi/local_manifest_LiquidRemix/master/liquid.xml -O .repo/local_manifests/liquid.xml
