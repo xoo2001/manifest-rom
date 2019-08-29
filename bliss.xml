@@ -3,9 +3,13 @@
 <!--ToRemove-->
 <remove-project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
 <remove-project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+<remove-project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
+<remove-project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
+<project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
 <!--ToAdd-->
 <project path="vendor/bliss" name="magicxavi/platform_vendor_bliss" remote="github" revision="p9.0" />
 <project path="frameworks/base" name="magicxavi/platform_frameworks_base" remote="github" revision="p9.0" />
+<project path="system/sepolicy" name="magicxavi/platform_system_sepolicy" remote="github" revision="p9.0" />
 <!--DeviceRepos-->
 <project path="device/xiaomi/kenzo" name="magicxavi/liquid_device_xiaomi_kenzo" remote="github" revision="bliss" />
 <project path="device/xiaomi/msm8956-common" name="magicxavi/liquid_device_xiaomi_msm8956-common" remote="github" revision="pie" />
