@@ -1,4 +1,4 @@
-# LiquidRemix Pie
+# Bliss Pie
 
 Synch sources:
 
