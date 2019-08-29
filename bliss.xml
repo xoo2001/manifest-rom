@@ -16,7 +16,7 @@
 <!--DeviceRepos-->
 <project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="bliss" />
 <project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="pie" />
-<project path="vendor/xiaomi" name="magicxavi/proprietary_vendor_xiaomi" remote="github" revision="pie" />
+<project path="vendor/xiaomi" name="AmolAmrit/proprietary_vendor_xiaomi" remote="github" revision="pie" />
 <project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="pie" />
    
 <!--HALs-->
