@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project name="AmolAmrit/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="nougat" />
+  <project name="AmolAmrit/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="nougat" />
+  <project name="AEX-N-Kenzo/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="nougat" clone-depth="1" />
+  <project path="kernel/xiaomi/msm8956" name="AmolAmrit/Escrima_kernel_xiaomi_msm8956" remote="github" revision="nougat" />
+  <!-- Packages -->
+  <remove-project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jf" />
+  <project path="packages/apps/SnapdragonCamera" name="AmolAmrit/packages_apps_SnapdragonCamera" remote="github" revision="n3" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+  <remove-project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="ex" />
+  <project path="packages/apps/OmniStyle" name="AEX-N-Kenzo/platform_packages_apps_OmniStyle" remote="github" revision="7.x" />
+</manifest>
