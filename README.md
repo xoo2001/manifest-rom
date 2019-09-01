@@ -1,10 +1,10 @@
-# LiquidRemix Pie
+# AEX Nougat
 
 Synch sources:
 
-    $ repo init -u git://github.com/LiquidRemix/android_manifest.git -b pie
+    $ repo init -u git://github.com/AospExtended/manifest.git -b 7.x
     $ mkdir -p .repo/local_manifests
-    $ wget https://raw.githubusercontent.com/magicxavi/manifest/master/liquid.xml -O .repo/local_manifests/liquid.xml
+    $ wget https://raw.githubusercontent.com/magicxavi/manifest/aex7.1.2/aex.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 Building for Xiaomi Redmi Note 3 (kenzo/kate)
@@ -14,5 +14,5 @@ To build:
 
     $ export LC_ALL=C
     $ . build/envsetup.sh
-    $ lunch liquid_kenzo-userdebug
-    $ brunch liquid_kenzo-userdebug
+    $ lunch aosp_kenzo-userdebug
+    $ mka aex -j$(nproc --all)
