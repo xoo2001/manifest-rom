@@ -15,4 +15,4 @@ To build:
     $ export LC_ALL=C
     $ . build/envsetup.sh
     $ lunch liquid_kenzo-userdebug
-    $ brunch liquid_kenzo-userdebug
+    $ brunch liquid_kenzo-userdebug or mka liquid -j$(nproc --all)
