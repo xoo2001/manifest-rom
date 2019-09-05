@@ -4,7 +4,7 @@
 <project name="magicxavi/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="nougat" />
 <project name="magicxavi/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="nougat" />
 <project name="AEX-N-Kenzo/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="nougat" clone-depth="1" />
-<project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="oreo" />
+<project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="7.x-new" />
 <!-- Packages to remove -->
 <remove-project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jf" />
 <remove-project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="ex" />
