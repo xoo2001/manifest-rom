@@ -12,6 +12,7 @@
 <remove-project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="liquid" />
 <remove-project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
 <remove-project path="packages/apps/LiquidLounge" name="android_packages_apps_LiquidLounge" remote="liquid" />
+<remove-project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="liquid" />
 <!--ToAdd-->
 <project path="external/noto-fonts" name="crdroidandroid/android_external_noto-fonts" remote="github" revision="9.0" />
 <project path="frameworks/base" name="magicxavi/android_frameworks_base" remote="github" revision="piekang" />
@@ -23,7 +24,7 @@
 <project path="external/roboto-fonts" name="magicxavi/android_external_roboto-fonts" remote="github" revision="pie" />
 <project path="packages/apps/Messaging" name="magicxavi/android_packages_apps_Messaging" remote="github" revision="pie" />
 <project path="packages/apps/LiquidLounge" name="magicxavi/android_packages_apps_LiquidLounge" remote="github" revision="piekang" />
-
+<project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="liquid" />
 <!--DeviceRepos-->
   <project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="liquid" />
   <project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="liquid" />
