@@ -21,7 +21,14 @@
 <project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="bliss" />
 <project path="vendor/xiaomi" name="magicxavi/proprietary_vendor_xiaomi" remote="github" revision="bliss" />
 <project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="pie" />
+<!--Hals-->
+<remove-project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio-caf" remote="BlissRoms" revision="p9.0-msm8952" />
+<remove-project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display-caf" remote="BlissRoms" revision="p9.0-msm8952" />
+<remove-project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="p9.0-msm8952" />
 
+<project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-16.0-caf-8952" />
+<project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-16.0-caf-8952" />
+<project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-16.0-caf-8952" />
 <!--Packages-->  
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
 </manifest>
