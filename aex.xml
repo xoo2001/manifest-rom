@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device -->
-<project name="magicxavi/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="nougat" />
-<project name="magicxavi/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="nougat" />
-<project name="AEX-N-Kenzo/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="nougat" clone-depth="1" />
-<project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="7.x-new" />
+	<project name="magicxavi/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="nougat" />
+	<project name="magicxavi/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="nougat" />
+	<project name="AEX-N-Kenzo/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="nougat" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="7.x-new" />
 <!-- Packages to remove -->
-<remove-project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jf" />
-<remove-project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="ex" />
-<remove-project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="ex" />
-<remove-project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="ex"  />
-<remove-project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ex" />
-<remove-project path="vendor/aosp" name="platform_vendor_aosp" remote="ex" />
-<remove-project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" />
-<remove-project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="ex" />
-<remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-<remove-project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="ex" />
-<remove-project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-<remove-project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" groups="pdk-fs" remote="ex" />
+	<remove-project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jf" />
+	<remove-project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="ex" />
+	<remove-project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="ex" />
+	<remove-project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="ex"  />
+	<remove-project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+	<remove-project path="vendor/aosp" name="platform_vendor_aosp" remote="ex" />
+	<remove-project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" />
+	<remove-project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="ex" />
+	<remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
+	<remove-project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="ex" />
+	<remove-project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
+	<remove-project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" groups="pdk-fs" remote="ex" />
+	<remove-project path="bionic" name="platform_bionic" groups="pdk" remote="ex" />
+	<remove-project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aosp-jf" />
 <!-- Packages to add -->
-<project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="lineage-16.0" />
-<project path="packages/apps/SnapdragonCamera" name="AmolAmrit/packages_apps_SnapdragonCamera" remote="github" revision="n3" />
-<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-<project path="packages/apps/OmniStyle" name="AEX-N-Kenzo/platform_packages_apps_OmniStyle" remote="github" revision="7.x" />
-<project path="packages/apps/Settings" name="magicxavi/aex_platform_packages_apps_Settings" remote="github" revision="7.x"  />
-<project path="frameworks/base" name="magicxavi/aex_platform_frameworks_base" remote="github" revision="7.x" />
-<project path="vendor/aosp" name="magicxavi/aex_platform_vendor_aosp" remote="github" revision="7.x" />
-<project path="external/roboto-fonts" name="magicxavi/android_external_roboto-fonts" remote="github" revision="pie" />
-<project path="external/noto-fonts" name="crdroidandroid/android_external_noto-fonts" remote="github" revision="9.0" />
-<project path="packages/apps/Extensions" name="magicxavi/aex_platform_packages_apps_Extensions" remote="github" revision="7.x" />
+	<project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="lineage-16.0" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+	<project path="packages/apps/OmniStyle" name="AEX-N-Kenzo/platform_packages_apps_OmniStyle" remote="github" revision="7.x" />
+	<project path="packages/apps/Settings" name="magicxavi/aex_platform_packages_apps_Settings" remote="github" revision="7.x"  />
+	<project path="frameworks/base" name="magicxavi/aex_platform_frameworks_base" remote="github" revision="7.x" />
+	<project path="vendor/aosp" name="magicxavi/aex_platform_vendor_aosp" remote="github" revision="7.x" />
+	<project path="external/roboto-fonts" name="magicxavi/android_external_roboto-fonts" remote="github" revision="pie" />
+	<project path="external/noto-fonts" name="crdroidandroid/android_external_noto-fonts" remote="github" revision="9.0" />
+	<project path="packages/apps/Extensions" name="magicxavi/aex_platform_packages_apps_Extensions" remote="github" revision="7.x" />
+	<project path="bionic" name="magicxavi/platform_bionic" remote="github" revision="7.x" />
+	<project path="packages/apps/Snap2" name="crdroidandroid/android_packages_apps_Snap2" remote="github" revision="8.0" />
 </manifest>
