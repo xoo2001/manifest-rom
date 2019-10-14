@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <remote name="gitlab"
+          fetch="https://gitlab.com/magicxavi"
+          revision="pie" />
+  
 <!--ToRemove-->
 <remove-project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="liquid" />
 <remove-project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
