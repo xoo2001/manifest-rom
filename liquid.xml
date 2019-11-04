@@ -61,7 +61,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 	<project path="packages/apps/Recorder" name="Havoc-OS/android_packages_apps_Recorder" remote="github" revision="pie" />
-	<project path="packages/apps/LiquidOTA" name="magicxavi/android_packages_apps_LiquidOTA" remote="github" revision="pie" />
+	<project path="packages/apps/LiquidOTA" name="magicxavi/packages_apps_LiquidOTA" remote="github" revision="bloody" />
 <!--DeviceRepos-->
   <project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="bloody" />
   <project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="liquid" />
