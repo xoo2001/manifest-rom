@@ -1,4 +1,4 @@
-# LiquidRemix Pie
+# Havoc 3.0 10 Android
 
 Synch sources:
 
