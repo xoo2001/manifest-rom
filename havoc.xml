@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+	<remove-project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="havoc" />
+	
  <!--DeviceRepos-->
   <project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="havoc3.0" />
   <project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="ten" />
   <project path="vendor/xiaomi" name="magicxavi/proprietary_vendor_xiaomi" remote="github" revision="ten" />
   <project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="ten" />
 
+	<project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-17.0" />
+	<project path="packages/apps/FMRadio" name="ArrowOS/android_packages_apps_FMRadio" remote="github" revision="arrow-10.0" />
+	<project path="packages/apps/Snap" name="ArrowOS/android_packages_apps_Snap" remote="github" revision="arrow-10.0" />
+	<project path="packages/apps/Recorder" name="ArrowOS/android_packages_apps_Recorder" remote="github" revision="arrow-10.0" />
  <!--HALs-->
  <project path="hardware/qcom-caf/msm8952/audio" name="magicxavi/android_hardware_qcom_audio" remote="github" revision="ten" />
  <project path="hardware/qcom-caf/msm8952/display" name="AmolAmrit/android_hardware_qcom_display" remote="github" revision="queencake" />
