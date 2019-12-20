@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
 <manifest>
-<!--ToRemove-->
-<remove-project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
-<remove-project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
-<remove-project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
-<remove-project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-<remove-project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-<remove-project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
-<remove-project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-<remove-project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" />
-<!--ToAdd-->
-<project path="vendor/bliss" name="magicxavi/platform_vendor_bliss" remote="github" revision="p9.0" />
-<project path="frameworks/base" name="magicxavi/platform_frameworks_base" remote="github" revision="p9.0" />
-<project path="system/sepolicy" name="magicxavi/platform_system_sepolicy" remote="github" revision="p9.0" />
-<project path="packages/apps/SnapdragonCamera2" name="omnirom/android_packages_apps_SnapdragonCamera2" remote="github" revision="android-9.0" />
-<project path="external/noto-fonts" name="crdroidandroid/android_external_noto-fonts" remote="github" revision="9.0" />
-<project path="external/roboto-fonts" name="magicxavi/android_external_roboto-fonts" remote="github" revision="pie" />
-<!--DeviceRepos-->
-<project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="bliss" />
-<project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="bliss" />
-<project path="vendor/xiaomi" name="magicxavi/proprietary_vendor_xiaomi" remote="github" revision="bliss" />
-<project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="pie" />
-<!--Hals-->
-<remove-project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio-caf" remote="BlissRoms" revision="p9.0-msm8952" />
-<remove-project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display-caf" remote="BlissRoms" revision="p9.0-msm8952" />
-<remove-project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="p9.0-msm8952" />
+  <remove-project groups="qcom,qcom_audio,pdk-qcom" name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8952/audio" remote="los" revision="lineage-17.0-caf-msm8952" />
+  <remove-project groups="pdk-qcom,qcom,qcom_display" name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8952/display" remote="los" revision="lineage-17.0-caf-msm8952" />
+  <remove-project groups="qcom,pdk-qcom" name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8952/media" remote="los" revision="lineage-17.0-caf-msm8952" />
+  <remove-project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="los" />
+  
+  <project name="magicxavi/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="blissq" />
+  <project name="magicxavi/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="blissq" />
+  <project name="magicxavi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="blissq" />
+  <project name="magicxavi/Escrima_kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="github" revision="ten" />
 
-<project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-16.0-caf-8952" />
-<project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-16.0-caf-8952" />
-<project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-16.0-caf-8952" />
-<!--Packages-->  
-<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+  <project name="ArrowOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="arrow-10.0" />
+  <project name="magicxavi/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8952/audio" remote="github" revision="ten" />
+  <project name="AmolAmrit/android_hardware_qcom_display" path="hardware/qcom-caf/msm8952/display" remote="github" revision="queencake" />
+  <project name="AmolAmrit/android_hardware_qcom_media" path="hardware/qcom-caf/msm8952/media" remote="github" revision="queencake" />
 </manifest>
