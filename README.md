@@ -1,8 +1,8 @@
-# Bliss Pie
+# Bliss Q
 
 Synch sources:
 
-    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b p9.0
+    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b q
     $ mkdir -p .repo/local_manifests
     $ wget https://raw.githubusercontent.com/magicxavi/manifest/bliss/bliss.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -15,4 +15,4 @@ To build:
     $ export LC_ALL=C
     $ . build/envsetup.sh
     $ lunch bliss_kenzo-userdebug
-    $ make -j$(nproc --all) Blissify
+    $ mka Blissify
