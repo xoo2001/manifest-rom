@@ -15,4 +15,4 @@ To build:
     $ export LC_ALL=C
     $ . build/envsetup.sh
     $ lunch bliss_kenzo-userdebug
-    $ make -j$(nproc --all) Blissify
+    $ make -j$(nproc --all) blissify
