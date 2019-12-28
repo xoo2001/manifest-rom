@@ -7,12 +7,12 @@ Synch sources:
     $ wget https://raw.githubusercontent.com/magicxavi/manifest/bliss/bliss.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-Building for Xiaomi Redmi Note 3 (kenzo/kate)
+Building for Zuk Z2/Z2 Plus
 ---------------
 
 To build:
 
     $ export LC_ALL=C
     $ . build/envsetup.sh
-    $ lunch bliss_kenzo-userdebug
-    $ mka Blissify
+    $ bliss_z2_plus-userdebug
+    $ make blissify
