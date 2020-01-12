@@ -14,5 +14,5 @@ To build:
 
     $ export LC_ALL=C
     $ . build/envsetup.sh
-    $ bliss_z2_plus-userdebug
+    $ lunch bliss_z2_plus-userdebug
     $ make blissify
