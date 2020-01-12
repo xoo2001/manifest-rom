@@ -1,5 +1,7 @@
 # Bliss Q
 
+![zuk_z2](https://github.com/magicxavi/manifest/raw/blissQ-zuk/BLISS%20ROM_Lenovo%20ZUK%20Z2.png "zuk_z2")
+
 Synch sources:
 
     $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b q
