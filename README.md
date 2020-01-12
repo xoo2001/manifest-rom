@@ -1,5 +1,7 @@
 # Bliss Q
 
+![Xiaomi Redmi Note 3](https://github.com/magicxavi/manifest/raw/blissQ/BLISS%20ROM_Xiaomi%20Redmi%20Note%203%20(2).png "Xiaomi Redmi Note 3")
+
 Synch sources:
 
     $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b q
