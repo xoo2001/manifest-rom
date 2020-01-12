@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Please do not manually edit this file-->
 <manifest>
-  <remove-project groups="qcom,qcom_audio,pdk-qcom" name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="los" revision="lineage-17.0-caf-msm8996" />
-  <remove-project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="los" />
-  <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
-  
-  <project name="magicxavi/device_zuk_z2_plus-1" path="device/zuk/z2_plus" remote="github" revision="blissq" />
-  <project name="magicxavi/android_device_zuk_msm8996-common-1" path="device/zuk/msm8996-common" remote="github" revision="blissq" />
-  <project name="magicxavi/proprietary_vendor_zuk" path="vendor/zuk" remote="github" revision="lineage-17.0-themuppets" />
-  <project name="magicxavi/android_kernel_zuk_msm8996-1" path="kernel/zuk/msm8996" remote="github" revision="lineage-17.0" />
 
-  <project path="packages/apps/Snap" name="BlissRoms/platform_packages_apps_Snap" remote="github" revision="q" />
+ <remove-project groups="qcom,qcom_audio,pdk-qcom" name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="los" revision="lineage-17.0-caf-msm8996" />
+  <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
+
+  <project name="magicxavi/android_device_lge_us997" path="device/lge/us997" remote="github" revision="lineage-17.0" />
+  <project name="magicxavi/android_device_lge_h872" path="device/lge/h872" remote="github" revision="lineage-17.0" />
+  <project name="magicxavi/android_device_lge_h870" path="device/lge/h870" remote="github" revision="lineage-17.0" />
+  <project name="magicxavi/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="lineage-17.0" />
+  <project name="magicxavi/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="lineage-17.0" />
+  <project name="magicxavi/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-17.0" />
+  <project name="magicxavi/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-17.0" />
+
+<project path="packages/apps/Snap" name="BlissRoms/platform_packages_apps_Snap" remote="github" revision="q" />
   <project name="magicxavi/android_hardware_qcom_audio-1" path="hardware/qcom-caf/msm8996/audio" remote="github" revision="lineage-17.1-caf-msm8996" />
 </manifest>
