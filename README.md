@@ -1,6 +1,6 @@
 # Bliss Q
 
-![zuk_z2](https://github.com/magicxavi/manifest/raw/blissQ-zuk/BLISS%20ROM_Lenovo%20ZUK%20Z2.png "zuk_z2")
+![g6](https://github.com/magicxavi/manifest/raw/blissQ-g6/BLISS%20ROM_LG%20G6.png "g6")
 
 Synch sources:
 
@@ -9,7 +9,7 @@ Synch sources:
     $ wget https://raw.githubusercontent.com/magicxavi/manifest/blissQ-zuk/bliss.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-Building for Zuk Z2/Z2 Plus
+Building for LG G6
 ---------------
 
 To build:
