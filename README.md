@@ -6,7 +6,7 @@ Synch sources:
 
     $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b q
     $ mkdir -p .repo/local_manifests
-    $ wget https://raw.githubusercontent.com/magicxavi/manifest/blissQ-G6/bliss.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://raw.githubusercontent.com/magicxavi/manifest/blissQ-g6/bliss.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 Building for LG G6
