@@ -14,5 +14,5 @@ To build:
 
     $ export LC_ALL=C
     $ . build/envsetup.sh
-    $ lunch havoc_kenzo-eng
-    $ brunch havoc_kenzo-eng
+    $ lunch havoc_kenzo-userdebug
+    $ brunch havoc_kenzo-userdebug
