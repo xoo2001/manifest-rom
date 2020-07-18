@@ -2,7 +2,7 @@
 
 Synch sources:
 
-    $ repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
+    $ repo init -u https://github.com/Ancient-Lab/manifest -b ten
     $ mkdir -p .repo/local_manifests
     $ wget https://raw.githubusercontent.com/magicxavi/manifest/havoc3.0/havoc.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
