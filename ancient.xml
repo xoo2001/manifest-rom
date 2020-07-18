@@ -17,5 +17,7 @@
  <project path="hardware/qcom-caf/msm8952/audio" name="magicxavi/android_hardware_qcom_audio" remote="github" revision="ten" />
  <project path="hardware/qcom-caf/msm8952/display" name="AmolAmrit/android_hardware_qcom_display" remote="github" revision="queencake" />
  <project path="hardware/qcom-caf/msm8952/media" name="AmolAmrit/android_hardware_qcom_media" remote="github" revision="queencake"/>
+ 
+ <project path="external/motorola/faceunlock" name="ancient-devices/FU-moto" remote="github" revision="ten"/>
 
 </manifest>
