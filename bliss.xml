@@ -11,7 +11,7 @@
   <project name="magicxavi/hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="ten" />
   
   <project name="magicxavi/android_device_xiaomi_laurel_sprout" path="device/xiaomi/laurel_sprout" remote="github" revision="blissQ" />
-  <project name="magicxavi/android_kernel_xiaomi_laurel_sprout" path="kernel/xiaomi/laurel_sprout" remote="github" revision="blissQ" />
+  <project name="magicxavi/android_kernel_xiaomi_laurel_sprout" path="kernel/xiaomi/laurel_sprout" remote="github" revision="shinelotus" />
   <project name="magicxavi/android_vendor_xiaomi_laurel_sprout" path="vendor/xiaomi/laurel_sprout" remote="github" revision="blissQ" />
   
   <project name="magicxavi/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="Miui" />
