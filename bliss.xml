@@ -10,7 +10,7 @@
   <project name="magicxavi/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="blissq" />
   <project name="magicxavi/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="blissq" />
   <project name="magicxavi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="blissq" />
-  <project name="magicxavi/Escrima_kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="github" revision="ten" />
+  <project name="magicxavi/kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="github" revision="shinelotus" />
   <project path="packages/apps/AdvancedControls" name="magicxavi/android_packages_apps_AdvancedControls" remote="github" revision="ten" />
   <project path="packages/apps/XiaomiDoze" name="magicxavi/packages_apps_XiaomiDoze" remote="github" revision="ten" />
 
