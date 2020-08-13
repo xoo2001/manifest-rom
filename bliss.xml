@@ -2,6 +2,12 @@
 <!--Please do not manually edit this file-->
 <manifest>
 
+  <remote name="magicxavi-gitlab"
+          fetch="https://gitlab.com/Magicxavi"
+          revision="ten" />
+          
+  <project path="vendor/gapps" name="vendor_gapps" remote="magicxavi-gitlab" clone-depth="1" />
+
   <remove-project groups="qcom,qcom_audio,pdk-qcom" name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8952/audio" remote="los" revision="lineage-17.0-caf-msm8952" />
   <remove-project groups="pdk-qcom,qcom,qcom_display" name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8952/display" remote="los" revision="lineage-17.0-caf-msm8952" />
   <remove-project groups="qcom,pdk-qcom" name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8952/media" remote="los" revision="lineage-17.0-caf-msm8952" />
