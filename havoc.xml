@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-	<remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
-	
- <!--DeviceRepos-->
-  <project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="havoc3.0" />
-  <project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="ten" />
-  <project path="vendor/xiaomi" name="magicxavi/proprietary_vendor_xiaomi" remote="github" revision="ten" />
-  <project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="ten" />
+  
+  <!-- kenzo -->
+  <project name="magicxavi/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="blissq" />
+  <project name="magicxavi/vendor_xiaomi_kenzo" path="vendor/xiaomi/kenzo" remote="github" revision="ten" />
+  <project name="magicxavi/kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="github" revision="shinelotus" />
+  <project path="packages/apps/AdvancedControls" name="magicxavi/android_packages_apps_AdvancedControls" remote="github" revision="ten" />
+  <project path="packages/apps/XiaomiParts" name="magicxavi/packages_apps_XiaomiDoze" remote="github" revision="ten" />
 
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="magicxavi/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="master" />
-	<project path="packages/apps/AdvancedControls" name="magicxavi/android_packages_apps_AdvancedControls" remote="github" revision="ten" />
-	<project path="packages/apps/XiaomiDoze" name="magicxavi/packages_apps_XiaomiDoze" remote="github" revision="ten" />
- <!--HALs-->
- <project path="hardware/qcom-caf/msm8952/audio" name="magicxavi/android_hardware_qcom_audio" remote="github" revision="ten" />
- <project path="hardware/qcom-caf/msm8952/display" name="AmolAmrit/android_hardware_qcom_display" remote="github" revision="queencake" />
- <project path="hardware/qcom-caf/msm8952/media" name="AmolAmrit/android_hardware_qcom_media" remote="github" revision="queencake"/>
-
+  <project name="magicxavi/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8952/audio" remote="github" revision="ten" />
+  <project name="AmolAmrit/android_hardware_qcom_display" path="hardware/qcom-caf/msm8952/display" remote="github" revision="queencake" />
+  <project name="AmolAmrit/android_hardware_qcom_media" path="hardware/qcom-caf/msm8952/media" remote="github" revision="queencake" />
+  
 </manifest>
