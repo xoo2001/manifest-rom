@@ -6,10 +6,9 @@
   <remove-project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8952" remote="lineage" />
 	
  <!--DeviceRepos-->
-  <project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="ancientq" />
-  <project path="device/xiaomi/msm8956-common" name="magicxavi/device_xiaomi_msm8956-common" remote="github" revision="ancientq" />
-  <project path="vendor/xiaomi" name="magicxavi/proprietary_vendor_xiaomi" remote="github" revision="ten" />
-  <project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="ten" />
+  <project path="device/xiaomi/kenzo" name="magicxavi/device_xiaomi_kenzo" remote="github" revision="ten" />
+  <project path="vendor/xiaomi/kenzo" name="magicxavi/vendor_xiaomi_kenzo" remote="github" revision="ten" />
+  <project path="kernel/xiaomi/msm8956" name="magicxavi/kernel_xiaomi_msm8956" remote="github" revision="shinelotus" />
 
 	<project path="packages/apps/AdvancedControls" name="magicxavi/android_packages_apps_AdvancedControls" remote="github" revision="ten" />
 	<project path="packages/apps/XiaomiDoze" name="magicxavi/packages_apps_XiaomiDoze" remote="github" revision="ten" />
@@ -17,7 +16,5 @@
  <project path="hardware/qcom-caf/msm8952/audio" name="magicxavi/android_hardware_qcom_audio" remote="github" revision="ten" />
  <project path="hardware/qcom-caf/msm8952/display" name="AmolAmrit/android_hardware_qcom_display" remote="github" revision="queencake" />
  <project path="hardware/qcom-caf/msm8952/media" name="AmolAmrit/android_hardware_qcom_media" remote="github" revision="queencake"/>
- 
- <project path="external/motorola/faceunlock" name="ancient-devices/FU-moto" remote="github" revision="ten"/>
 
 </manifest>
