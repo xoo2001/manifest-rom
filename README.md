@@ -1,10 +1,10 @@
-# Havoc 3.0 10 Android
+# Havoc 3.x 10 Android
 
 Synch sources:
 
     $ repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
     $ mkdir -p .repo/local_manifests
-    $ wget https://raw.githubusercontent.com/magicxavi/manifest/havoc3.0/havoc.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://raw.githubusercontent.com/magicxavi/manifest/havoc/havoc.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 Building for Xiaomi Redmi Note 3 (kenzo/kate)
