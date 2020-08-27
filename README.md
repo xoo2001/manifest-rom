@@ -1,6 +1,6 @@
 # Ancient Civilization 10 Android
 
-![Xiaomi Redmi Note 3](https://github.com/magicxavi/manifest/raw/ancientQ/photo_2020-04-18_23-35-28.jpg "Xiaomi Redmi Note 3")
+![Xiaomi Redmi Note 3](https://github.com/magicxavi/manifest/raw/ancientQ/PicsArt_07-15-12.05.11.png "Xiaomi Redmi Note 3")
 
 Synch sources:
 
