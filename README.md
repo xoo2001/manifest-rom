@@ -1,5 +1,7 @@
 # Havoc 3.x 10 Android
 
+![Xiaomi Redmi Note 3](https://github.com/magicxavi/manifest/raw/havoc/photo_2020-04-25_02-48-40.jpg "Xiaomi Redmi Note 3")
+
 Synch sources:
 
     $ repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
