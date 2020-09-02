@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <remove-project path="system/core" name="android_system_core" remote="havoc" />
+  <project path="system/core" name="magicxavi/android_system_core" remote="github" revision="ten" />
+  
   <!-- kenzo -->
   <project name="magicxavi/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="blissq" />
   <project name="magicxavi/vendor_xiaomi_kenzo" path="vendor/xiaomi/kenzo" remote="github" revision="ten" />
