@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+  <!-- a6000 -->
+  <project name="xoo2001/device_lenovo_msm8916" path="device/lenovo/a6000" remote="github" revision="lineage-17.1" />
+  <project name="xoo2001/vendor_lenovo_msm8916" path="vendor/lenovo/a6000" remote="github" revision="lineage-17.1" />
+  <project name="xoo2001/kernel_lenovo_msm8916" path="kernel/lenovo/a6000" remote="github" revision="lineage-17.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="xoo2001/arm-len-linux-gnueabi" remote="github" revision="20200115" />
+  
+</manifest>
